@@ -72,47 +72,46 @@ To get started with BusKaro, follow these steps:
 
 1. Clone the repository:
 
-   bash
+```bash
    git clone https://github.com/Ashu-161120/BusKaro.git
 
-
-   ## Change to project directory
+# Change to project directory
    cd BusKaro
-   
+```
 
-2. Install Dependencies for Backend
-bash
+3. Install Dependencies for Backend
+```bash
    cd BusKaro-backend
    npm install
+```
 
-
-3. Install Dependencies for Frontend
-bash
+4. Install Dependencies for Frontend
+```bash
    cd BusKaro-backend
    npm install
+```
 
-
-4. Configuration
-bash
+6. Configuration
+```bash
 ## add .env file for Backend
 vim BusKaro-Backend/.env
-
+```
 add Configuration
-
+```
 PORT=3001
 MONGODB_URI="mongodb+srv://<username>:<password>@cluster0.bbbqyfo.mongodb.net/buskaro?retryWrites=true&w=majority"
 SECRET_KEY='BusKaro'
 FRONTEND_BASE_URL='http://localhost:3000'
-
+```
 
 5. Starting application
-bash
+```bash
 cd BusKaro-Backend
 npm run start
-
-bash
+```
+```bash
 cd BusKaro-frontend
 npm run start
+```
 
-
-6. Start playing on application at http://localhost:3000/
+6. Start playing on application at `http://localhost:3000/`
