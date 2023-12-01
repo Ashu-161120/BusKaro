@@ -75,7 +75,7 @@ To get started with BusKaro, follow these steps:
 ```bash
    git clone https://github.com/Ashu-161120/BusKaro.git
 
-# Change to project directory
+   # Change to project directory
    cd BusKaro
 ```
 
@@ -87,14 +87,14 @@ To get started with BusKaro, follow these steps:
 
 4. Install Dependencies for Frontend
 ```bash
-   cd BusKaro-backend
+   cd BusKaro-frontend
    npm install
 ```
 
 6. Configuration
 ```bash
-## add .env file for Backend
-vim BusKaro-Backend/.env
+# add .env file for Backend
+vim BusKaro-backend/.env
 ```
 add Configuration
 ```
@@ -106,7 +106,7 @@ FRONTEND_BASE_URL='http://localhost:3000'
 
 5. Starting application
 ```bash
-cd BusKaro-Backend
+cd BusKaro-backend
 npm run start
 ```
 ```bash
@@ -114,4 +114,4 @@ cd BusKaro-frontend
 npm run start
 ```
 
-6. Start playing on application at `http://localhost:3000/`
+6. Start playing the application at `http://localhost:3000/`
